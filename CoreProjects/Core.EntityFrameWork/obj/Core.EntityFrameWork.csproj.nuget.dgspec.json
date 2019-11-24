@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyWorks\\Core\\CoreProjects\\Core.EntityFrameWork\\Core.EntityFrameWork.csproj": {}
+    "C:\\MyWorks\\CoreEgitim\\.NetCore_Egitim\\CoreProjects\\Core.EntityFrameWork\\Core.EntityFrameWork.csproj": {}
   },
   "projects": {
-    "C:\\MyWorks\\Core\\CoreProjects\\Core.EntityFrameWork\\Core.EntityFrameWork.csproj": {
+    "C:\\MyWorks\\CoreEgitim\\.NetCore_Egitim\\CoreProjects\\Core.EntityFrameWork\\Core.EntityFrameWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyWorks\\Core\\CoreProjects\\Core.EntityFrameWork\\Core.EntityFrameWork.csproj",
+        "projectUniqueName": "C:\\MyWorks\\CoreEgitim\\.NetCore_Egitim\\CoreProjects\\Core.EntityFrameWork\\Core.EntityFrameWork.csproj",
         "projectName": "Core.EntityFrameWork",
-        "projectPath": "C:\\MyWorks\\Core\\CoreProjects\\Core.EntityFrameWork\\Core.EntityFrameWork.csproj",
+        "projectPath": "C:\\MyWorks\\CoreEgitim\\.NetCore_Egitim\\CoreProjects\\Core.EntityFrameWork\\Core.EntityFrameWork.csproj",
         "packagesPath": "C:\\Users\\omeqa\\.nuget\\packages\\",
-        "outputPath": "C:\\MyWorks\\Core\\CoreProjects\\Core.EntityFrameWork\\obj\\",
+        "outputPath": "C:\\MyWorks\\CoreEgitim\\.NetCore_Egitim\\CoreProjects\\Core.EntityFrameWork\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             }
           },
           "imports": [
