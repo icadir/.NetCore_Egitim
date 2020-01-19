@@ -1,0 +1,8 @@
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.Data\bin\Debug\netcoreapp3.1\BlogApp.Data.deps.json
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.Data\bin\Debug\netcoreapp3.1\BlogApp.Data.dll
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.Data\bin\Debug\netcoreapp3.1\BlogApp.Data.pdb
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.Data\obj\Debug\netcoreapp3.1\BlogApp.Data.csprojAssemblyReference.cache
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.Data\obj\Debug\netcoreapp3.1\BlogApp.Data.AssemblyInfoInputs.cache
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.Data\obj\Debug\netcoreapp3.1\BlogApp.Data.AssemblyInfo.cs
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.Data\obj\Debug\netcoreapp3.1\BlogApp.Data.dll
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.Data\obj\Debug\netcoreapp3.1\BlogApp.Data.pdb
