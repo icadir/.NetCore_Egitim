@@ -27,7 +27,6 @@ C:\MyWorks\CoreEgitim\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debu
 C:\MyWorks\CoreEgitim\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Razor\Views\Product\List.g.cshtml.cs
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\bin\Debug\netcoreapp2.2\appsettings.Development.json
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\bin\Debug\netcoreapp2.2\appsettings.json
-D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\bin\Debug\netcoreapp2.2\appsettings1.json
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\bin\Debug\netcoreapp2.2\Core.EntityFrameWork.deps.json
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\bin\Debug\netcoreapp2.2\Core.EntityFrameWork.runtimeconfig.json

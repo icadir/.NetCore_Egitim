@@ -49,6 +49,8 @@ namespace Core.EntityFrameWork
                     name: "default",
                     template: "{controller=Product}/{action=List}/{id?}");
             });
+
+            SeedData.Seed(app);
         }
     }
 }
