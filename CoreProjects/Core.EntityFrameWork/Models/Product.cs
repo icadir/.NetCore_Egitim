@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Core.EntityFrameWork.Models
+﻿namespace Core.EntityFrameWork.Models
 {
     public class Product
     {
@@ -12,5 +7,6 @@ namespace Core.EntityFrameWork.Models
         public string Description { get; set; }
         public decimal Price { get; set; }
         public string Category { get; set; }
+        public int Stok { get; set; }
     }
 }
