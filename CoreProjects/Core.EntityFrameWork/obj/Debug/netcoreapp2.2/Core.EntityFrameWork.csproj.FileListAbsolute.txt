@@ -54,3 +54,4 @@ D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Core.EntityFrameWork.dll
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Core.EntityFrameWork.pdb
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Core.EntityFrameWork.csproj.CopyComplete
+D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.cshtml.g.cs

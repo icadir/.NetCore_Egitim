@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Core.EntityFrameWork.Models;
+﻿using Core.EntityFrameWork.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Core.EntityFrameWork.Controllers
@@ -15,11 +11,36 @@ namespace Core.EntityFrameWork.Controllers
         {
             repository = repo;
         }
-        public IActionResult Index()
+        public IActionResult Index() => View();
+
+        public IActionResult List()
         {
-            return View();
+            return View(repository.Products);
         }
 
-        public IActionResult List() => View(repository.Products);
+        [HttpGet]
+        public IActionResult Create() => View();
+
+        [HttpPost]
+        public IActionResult Create(Product product)
+        {
+            repository.CreateProduct(product);
+            return RedirectToAction("List");
+        }
+
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            return View(repository.GetById(id));
+        }
+
+        [HttpPost]
+        public IActionResult Update(Product product)
+        {
+            repository.UpdateProduct(product);
+            return RedirectToAction("List");
+        }
+
+
     }
 }

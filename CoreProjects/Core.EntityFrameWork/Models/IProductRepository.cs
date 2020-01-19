@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
 namespace Core.EntityFrameWork.Models
 {
     public interface IProductRepository
     {
-         IQueryable<Product> Products { get; }
+        Product GetById(int productId);
+        IQueryable<Product> Products { get; }
+        void CreateProduct(Product product);
+        void UpdateProduct(Product product);
     }
 }

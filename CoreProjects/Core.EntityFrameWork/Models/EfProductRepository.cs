@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
 namespace Core.EntityFrameWork.Models
 {
@@ -14,6 +11,24 @@ namespace Core.EntityFrameWork.Models
             _context = context;
         }
 
+        public Product GetById(int productId)
+        {
+            return  _context.Products.FirstOrDefault(x => x.ProductId == productId);
+        }
+
         public IQueryable<Product> Products => _context.Products;
+
+
+        public void CreateProduct(Product product)
+        {
+            _context.Products.Add(product);
+            _context.SaveChanges();
+        }
+
+        public void UpdateProduct(Product product)
+        {
+            _context.Products.Update(product);
+            _context.SaveChanges();
+        }
     }
 }
