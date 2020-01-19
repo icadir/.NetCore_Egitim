@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core_EntityFrameWork", "Core_EntityFrameWork", "{59B94D96-EB16-4292-B6BF-350CFF7783F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.EntityFrameWork", "Core.EntityFrameWork\Core.EntityFrameWork.csproj", "{66D2925E-456C-4A19-B0B1-F02D1FA9D088}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.EntityFrameWork", "Core.EntityFrameWork\Core.EntityFrameWork.csproj", "{66D2925E-456C-4A19-B0B1-F02D1FA9D088}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlogApp", "BlogApp", "{1756550E-1A4C-4DC7-9D73-C11E399814CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
