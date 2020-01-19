@@ -28,5 +28,10 @@ namespace Core.EntityFrameWork.Models
         {
             throw new NotImplementedException();
         }
+
+        public void DeleteProduct(int productId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

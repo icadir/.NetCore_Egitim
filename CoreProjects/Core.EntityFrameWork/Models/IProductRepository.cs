@@ -8,5 +8,6 @@ namespace Core.EntityFrameWork.Models
         IQueryable<Product> Products { get; }
         void CreateProduct(Product product);
         void UpdateProduct(Product product);
+        void DeleteProduct(int productId);
     }
 }

@@ -30,5 +30,12 @@ namespace Core.EntityFrameWork.Models
             _context.Products.Update(product);
             _context.SaveChanges();
         }
+
+        public void DeleteProduct(int productId)
+        {
+            var product = this.GetById(productId);
+            _context.Products.Remove(product);
+            _context.SaveChanges();
+        }
     }
 }

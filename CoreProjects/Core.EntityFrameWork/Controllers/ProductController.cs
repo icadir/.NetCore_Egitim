@@ -41,6 +41,11 @@ namespace Core.EntityFrameWork.Controllers
             return RedirectToAction("List");
         }
 
-
+        [HttpGet]
+        public IActionResult Delete(int productId)
+        {
+            repository.DeleteProduct(productId);
+            return RedirectToAction("List");
+        }
     }
 }
