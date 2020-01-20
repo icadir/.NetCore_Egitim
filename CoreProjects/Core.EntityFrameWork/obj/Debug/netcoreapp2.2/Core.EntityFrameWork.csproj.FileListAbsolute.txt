@@ -43,6 +43,8 @@ D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Core.EntityFrameWork.TagHelpers.input.cache
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Core.EntityFrameWork.TagHelpers.output.cache
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Core.EntityFrameWork.RazorCoreGenerate.cache
+D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.cshtml.g.cs
+D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.cshtml.g.cs
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.cshtml.g.cs
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Razor\Views\Product\List.cshtml.g.cs
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -54,5 +56,3 @@ D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Core.EntityFrameWork.dll
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Core.EntityFrameWork.pdb
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Core.EntityFrameWork.csproj.CopyComplete
-D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.cshtml.g.cs
-D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.cshtml.g.cs
