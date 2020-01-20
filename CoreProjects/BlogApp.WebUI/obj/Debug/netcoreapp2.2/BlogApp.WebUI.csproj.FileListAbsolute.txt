@@ -29,3 +29,5 @@ D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\obj\Debug\netcoreapp2.2\Blo
 D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\Home\Details.cshtml.g.cs
 D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\Home\List.cshtml.g.cs
 D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\obj\Debug\netcoreapp2.2\BlogApp.WebUI.csprojAssemblyReference.cache
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\bin\Debug\netcoreapp2.2\BlogApp.Entity.dll
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\bin\Debug\netcoreapp2.2\BlogApp.Entity.pdb

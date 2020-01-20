@@ -5,3 +5,4 @@ D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.Entity\obj\Debug\netcoreapp3.1\Bl
 D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.Entity\obj\Debug\netcoreapp3.1\BlogApp.Entity.AssemblyInfo.cs
 D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.Entity\obj\Debug\netcoreapp3.1\BlogApp.Entity.dll
 D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.Entity\obj\Debug\netcoreapp3.1\BlogApp.Entity.pdb
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.Entity\obj\Debug\netcoreapp3.1\BlogApp.Entity.csprojAssemblyReference.cache
