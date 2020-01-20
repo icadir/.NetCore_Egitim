@@ -35,7 +35,6 @@ D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\bin\Debug\netcoreapp
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\bin\Debug\netcoreapp2.2\Core.EntityFrameWork.pdb
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\bin\Debug\netcoreapp2.2\Core.EntityFrameWork.Views.dll
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\bin\Debug\netcoreapp2.2\Core.EntityFrameWork.Views.pdb
-D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Core.EntityFrameWork.csprojAssemblyReference.cache
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Core.EntityFrameWork.RazorAssemblyInfo.cache
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Core.EntityFrameWork.RazorAssemblyInfo.cs
 D:\ismail\.NetCore_Egitim\CoreProjects\Core.EntityFrameWork\obj\Debug\netcoreapp2.2\Core.EntityFrameWork.AssemblyInfoInputs.cache
