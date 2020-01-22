@@ -411,3 +411,6 @@ CoreProjects/BlogApp.Data/obj/Debug/netcoreapp3.1/BlogApp.Data.csprojAssemblyRef
 CoreProjects/BlogApp.Entity/obj/Debug/netcoreapp3.1/BlogApp.Entity.pdb
 CoreProjects/Core.EntityFrameWork/bin/Debug/netcoreapp2.2/Core.EntityFrameWork.pdb
 CoreProjects/.vs/CoreProjects/v16/Server/sqlite3/storage.ide
+CoreProjects/.vs/CoreProjects/v16/Server/sqlite3/storage.ide
+CoreProjects/.vs/CoreProjects/v16/.suo
+CoreProjects/.vs/CoreProjects/DesignTimeBuild/.dtbcache
