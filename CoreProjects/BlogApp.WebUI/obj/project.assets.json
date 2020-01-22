@@ -4734,6 +4734,21 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "BlogApp.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "BlogApp.Entity": "1.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "1.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogApp.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogApp.Data.dll": {}
+        }
+      },
       "BlogApp.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -13127,6 +13142,11 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "BlogApp.Data/1.0.0": {
+      "type": "project",
+      "path": "../BlogApp.Data/BlogApp.Data.csproj",
+      "msbuildProject": "../BlogApp.Data/BlogApp.Data.csproj"
+    },
     "BlogApp.Entity/1.0.0": {
       "type": "project",
       "path": "../BlogApp.Entity/BlogApp.Entity.csproj",
@@ -13135,6 +13155,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "BlogApp.Data >= 1.0.0",
       "BlogApp.Entity >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
@@ -13173,6 +13194,9 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
+            "D:\\ismail\\.NetCore_Egitim\\CoreProjects\\BlogApp.Data\\BlogApp.Data.csproj": {
+              "projectPath": "D:\\ismail\\.NetCore_Egitim\\CoreProjects\\BlogApp.Data\\BlogApp.Data.csproj"
+            },
             "D:\\ismail\\.NetCore_Egitim\\CoreProjects\\BlogApp.Entity\\BlogApp.Entity.csproj": {
               "projectPath": "D:\\ismail\\.NetCore_Egitim\\CoreProjects\\BlogApp.Entity\\BlogApp.Entity.csproj"
             }
