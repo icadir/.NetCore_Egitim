@@ -1,4 +1,5 @@
-﻿using BlogApp.Data.Concrete.EfCore;
+﻿using BlogApp.Data.Abstract;
+using BlogApp.Data.Concrete.EfCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -21,8 +22,10 @@ namespace BlogApp.WebUI
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IBlogRepository, EfBlogRepository>();
+            services.AddTransient<ICategoryRepository, EfCateogryRepository>();
             services.AddDbContext<BlogContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),x=>x.MigrationsAssembly("BlogApp.WebUI")));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), x => x.MigrationsAssembly("BlogApp.WebUI")));
             services.AddMvc();
         }
 

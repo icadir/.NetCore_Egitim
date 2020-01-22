@@ -18,8 +18,13 @@ using BlogApp.WebUI.Models;
 
 #line default
 #line hidden
+#line 2 "D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\Views\_ViewImports.cshtml"
+using BlogApp.Entity;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a4bc9cb4a1d11f0c28a746ed054b4cb82c25e233", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4e320b85992f279422e2943437623da7005d898b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"96ac41d9fd34d1ba3bd27fcc8aad6cf31e5ca9da", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

@@ -356,6 +356,7 @@
       "BlogApp.Data/1.0.0": {
         "dependencies": {
           "BlogApp.Entity": "1.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0"
         },
         "runtime": {
