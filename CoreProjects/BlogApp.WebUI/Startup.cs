@@ -22,7 +22,7 @@ namespace BlogApp.WebUI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<BlogContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),x=>x.MigrationsAssembly("BlogApp.WebUI")));
             services.AddMvc();
         }
 
@@ -43,6 +43,8 @@ namespace BlogApp.WebUI
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            SeedData.Seed(app);
 
         }
     }
