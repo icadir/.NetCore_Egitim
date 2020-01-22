@@ -33,3 +33,5 @@ D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\bin\Debug\netcoreapp2.2\Blo
 D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\bin\Debug\netcoreapp2.2\BlogApp.Entity.pdb
 D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\bin\Debug\netcoreapp2.2\BlogApp.Data.dll
 D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\bin\Debug\netcoreapp2.2\BlogApp.Data.pdb
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\Blog\List.cshtml.g.cs
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\bin\Debug\netcoreapp2.2\libman.json
