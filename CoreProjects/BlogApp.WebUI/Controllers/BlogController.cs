@@ -23,7 +23,7 @@ namespace BlogApp.WebUI.Controllers
 
         public IActionResult Index()
         {
-            return View(_blogRepository.GetAll().Where(x=>x.isApproved).OrderBy(x=>x.Date));
+            return View(_blogRepository.GetAll().Where(x => x.isApproved).OrderBy(x => x.Date));
         }
 
         public IActionResult List()
@@ -68,9 +68,15 @@ namespace BlogApp.WebUI.Controllers
         [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(int blogId)
         {
-           _blogRepository.DeteleBlog(blogId);
-           TempData["message"] = $"{blogId} numaralı kayıt edildi.";
+            _blogRepository.DeteleBlog(blogId);
+            TempData["message"] = $"{blogId} numaralı kayıt edildi.";
             return RedirectToAction("List");
+        }
+
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            return View(_blogRepository.GetById(id));
         }
     }
 }
