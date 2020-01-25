@@ -8,6 +8,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+git rm --cached
+
 # User-specific files
 *.rsuser
 *.suo
@@ -422,3 +424,5 @@ CoreProjects/BlogApp.WebUI/obj/Debug/netcoreapp2.2/BlogApp.WebUI.csproj.FileList
 CoreProjects/BlogApp.WebUI/obj/Debug/netcoreapp2.2/BlogApp.WebUI.RazorCoreGenerate.cache
 CoreProjects/BlogApp.WebUI/obj/Debug/netcoreapp2.2/BlogApp.WebUI.Views.dll
 CoreProjects/BlogApp.WebUI/obj/Debug/netcoreapp2.2/BlogApp.WebUI.Views.pdb
+CoreProjects/.vs/CoreProjects/v16/.suo
+CoreProjects/.vs/CoreProjects/v16/Server/sqlite3/storage.ide
