@@ -31,48 +31,6 @@ namespace BlogApp.WebUI.Controllers
             return View(_blogRepository.GetAll());
         }
 
-        //[HttpGet]
-        //public IActionResult Create()
-        //{
-        //    ViewBag.Categories = new SelectList(_categoryRepository.GetAll(), "CategoryId", "Name");
-
-        //    return View();
-        //}
-
-        //[HttpPost]
-        //public IActionResult Create(Blog entity)
-        //{
-        //    entity.Date = DateTime.Now;
-
-        //    if (ModelState.IsValid)
-        //    {
-        //        _blogRepository.AddBlog(entity);
-        //     return  RedirectToAction("List");
-        //    }
-        //    ViewBag.Categories = new SelectList(_categoryRepository.GetAll(), "CategoryId", "Name");
-        //    return View(entity);
-        //}
-
-        //[HttpGet]
-        //public IActionResult Edit(int id)
-        //{
-        //    ViewBag.Categories = new SelectList(_categoryRepository.GetAll(), "CategoryId", "Name");
-        //    return View(_blogRepository.GetById(id));
-        //}
-
-        //[HttpPost]
-        //public IActionResult Edit(Blog entity)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        TempData["message"] = $"{entity.Title} Güncellendi.";
-        //        _blogRepository.UpdateBlog(entity);
-        //        return RedirectToAction("List");
-        //    }
-        //    ViewBag.Categories = new SelectList(_categoryRepository.GetAll(), "CategoryId", "Name");
-
-        //    return View(entity);
-        //}
 
         [HttpGet]
         public IActionResult AddOrUpdate(int? id)
@@ -102,5 +60,18 @@ namespace BlogApp.WebUI.Controllers
             return View(entity);
         }
 
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            return View(_blogRepository.GetById(id));
+        }
+
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeleteConfirmed(int blogId)
+        {
+           _blogRepository.DeteleBlog(blogId);
+           TempData["message"] = $"{blogId} numaralı kayıt edildi.";
+            return RedirectToAction("List");
+        }
     }
 }

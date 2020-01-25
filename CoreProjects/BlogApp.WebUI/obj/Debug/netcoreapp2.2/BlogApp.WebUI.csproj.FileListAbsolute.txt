@@ -36,5 +36,5 @@ D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\bin\Debug\netcoreapp2.2\Blo
 D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\Blog\List.cshtml.g.cs
 D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\bin\Debug\netcoreapp2.2\libman.json
 D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\Category\List.cshtml.g.cs
-D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\Category\Create.cshtml.g.cs
 D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\Blog\AddOrUpdate.cshtml.g.cs
+D:\ismail\.NetCore_Egitim\CoreProjects\BlogApp.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\Category\AddOrUpdate.cshtml.g.cs
