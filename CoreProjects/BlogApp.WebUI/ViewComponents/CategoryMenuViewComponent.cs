@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using BlogApp.Data.Abstract;
+﻿using BlogApp.Data.Abstract;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogApp.WebUI.ViewComponents
@@ -18,6 +14,7 @@ namespace BlogApp.WebUI.ViewComponents
 
         public IViewComponentResult Invoke()
         {
+            ViewBag.SelectedCategory = RouteData?.Values["id"];
             return View(_repository.GetAll());
         }
     }

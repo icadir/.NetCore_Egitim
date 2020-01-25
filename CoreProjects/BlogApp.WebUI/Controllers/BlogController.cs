@@ -21,9 +21,14 @@ namespace BlogApp.WebUI.Controllers
             _categoryRepository = categoryRepository;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int? id)
         {
-            return View(_blogRepository.GetAll().Where(x => x.isApproved).OrderBy(x => x.Date));
+            var query = _blogRepository.GetAll().Where(x => x.isApproved);
+            if (id != null)
+            {
+                query = query.Where(x => x.CategoryId == id);
+            }
+            return View(query.OrderByDescending(x => x.Date));
         }
 
         public IActionResult List()
@@ -32,7 +37,7 @@ namespace BlogApp.WebUI.Controllers
         }
 
         [HttpGet]
-        public IActionResult AddOrUpdate(int? id)
+        public IActionResult AddOrUpdate(int id)
         {
             ViewBag.Categories = new SelectList(_categoryRepository.GetAll(), "CategoryId", "Name");
 
