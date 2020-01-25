@@ -1,4 +1,6 @@
-﻿using BlogApp.Data.Abstract;
+﻿using System.Linq;
+using System.Runtime.CompilerServices;
+using BlogApp.Data.Abstract;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogApp.WebUI.Controllers
@@ -14,7 +16,7 @@ namespace BlogApp.WebUI.Controllers
 
         public IActionResult Index()
         {
-            return View(blogRepository.GetAll());
+            return View(blogRepository.GetAll().Where(x=>x.isApproved && x.isHome));
         }
 
         public IActionResult List()
