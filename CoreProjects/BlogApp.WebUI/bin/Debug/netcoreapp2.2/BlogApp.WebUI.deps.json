@@ -367,6 +367,9 @@
         }
       },
       "BlogApp.Entity/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.0"
+        },
         "runtime": {
           "BlogApp.Entity.dll": {}
         },

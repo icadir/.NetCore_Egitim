@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BlogApp.Data.Abstract;
+using BlogApp.Entity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogApp.WebUI.Controllers
@@ -25,6 +26,24 @@ namespace BlogApp.WebUI.Controllers
         {
             return View(repository.GetAll());
 
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+
+        }
+
+        [HttpPost]
+        public IActionResult Create(Category entity)
+        {
+            if (ModelState.IsValid)
+            {
+                repository.AddCategory(entity);
+                return RedirectToAction("List");
+            }
+
+            return View(entity);
         }
     }
 }
