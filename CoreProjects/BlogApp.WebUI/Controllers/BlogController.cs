@@ -23,14 +23,13 @@ namespace BlogApp.WebUI.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(_blogRepository.GetAll().Where(x=>x.isApproved).OrderBy(x=>x.Date));
         }
 
         public IActionResult List()
         {
             return View(_blogRepository.GetAll());
         }
-
 
         [HttpGet]
         public IActionResult AddOrUpdate(int? id)
