@@ -46,6 +46,28 @@ namespace BlogApp.Data.Concrete.EfCore
             context.SaveChanges();
         }
 
+        public void SaveBlog(Blog entity)
+        {
+            if (entity.BlogId==0)
+            {
+                entity.Date = DateTime.Now;
+                context.Blogs.Add(entity);
+            }
+            else
+            {
+                var blog = GetById(entity.BlogId);
+                if (blog != null)
+                {
+                    blog.Title = entity.Title;
+                    blog.Description = entity.Description;
+                    blog.CategoryId = entity.CategoryId;
+                    blog.Image = entity.Image;
+                }
+            }
+            context.SaveChanges();
+
+        }
+
         public void DeteleBlog(int blogId)
         {
             var blog = context.Blogs.First(x => x.BlogId == blogId);
