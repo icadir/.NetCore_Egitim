@@ -28,18 +28,27 @@ namespace BlogApp.WebUI.Controllers
 
         }
 
-        public IActionResult Create()
+        [HttpGet]
+        public IActionResult AddOrUpdate(int? id)
         {
-            return View();
-
+            if (id == null)
+            {
+                return View( new Category());
+            }
+            else
+            {
+                return View(repository.GetById((int)id));
+            }
         }
 
         [HttpPost]
-        public IActionResult Create(Category entity)
+        public IActionResult AddOrUpdate(Category entity)
         {
             if (ModelState.IsValid)
             {
-                repository.AddCategory(entity);
+                repository.SaveCateogry(entity);
+
+                TempData["message"] = $"{entity.Name} kayit Edildi.";
                 return RedirectToAction("List");
             }
 

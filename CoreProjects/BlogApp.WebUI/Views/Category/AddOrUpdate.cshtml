@@ -1,14 +1,17 @@
-﻿@model Category
+﻿
+@model Category
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "AddOrUpdate";
 }
 
 <div class="container">
     <h1>Create Category</h1>
     <br />
 
-    <form asp-controller="Category" asp-action="Create" method="post">
+    <form asp-controller="Category" asp-action="AddOrUpdate" method="post">
+        
+        <input type="hidden" asp-for="CategoryId" />
         <div class="form-group">
             <label asp-for="Name"></label>
             <input asp-for="Name" class="form-control">

@@ -9,6 +9,7 @@ namespace BlogApp.Data.Abstract
         IQueryable<Category> GetAll();
         void AddCategory(Category entity);
         void UpdateCateogry(Category entity);
+        void SaveCateogry(Category entity);
         void DeteleCategory(int categoryId);
     }
 }
