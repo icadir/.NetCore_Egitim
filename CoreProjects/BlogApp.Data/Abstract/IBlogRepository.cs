@@ -7,8 +7,8 @@ namespace BlogApp.Data.Abstract
     {
         Blog GetById(int blogId);
         IQueryable<Blog> GetAll();
-        void AddCategory(Blog entity);
-        void UpdateCateogry(Blog entity);
-        void DeteleCategory(int blogId);
+        void AddBlog(Blog entity);
+        void UpdateBlog(Blog entity);
+        void DeteleBlog(int blogId);
     }
 }

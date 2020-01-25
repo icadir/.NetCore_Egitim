@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace BlogApp.Entity
 {
@@ -11,6 +12,7 @@ namespace BlogApp.Entity
         public string Body { get; set; }
         public string Image { get; set; }
 
+        [BindNever]
         public DateTime Date { get; set; }
         public bool isApproved { get; set; }
 
