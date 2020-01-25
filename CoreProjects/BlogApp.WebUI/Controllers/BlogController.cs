@@ -6,6 +6,7 @@ using BlogApp.Data.Abstract;
 using BlogApp.Entity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Remotion.Linq.Utilities;
 
 namespace BlogApp.WebUI.Controllers
@@ -21,13 +22,19 @@ namespace BlogApp.WebUI.Controllers
             _categoryRepository = categoryRepository;
         }
 
-        public IActionResult Index(int? id)
+        public IActionResult Index(int? id, string q)
         {
             var query = _blogRepository.GetAll().Where(x => x.isApproved);
             if (id != null)
             {
                 query = query.Where(x => x.CategoryId == id);
             }
+
+            if (!string.IsNullOrEmpty(q))
+            {
+                query = query.Where(x => EF.Functions.Like(x.Title, "%" + q + "%") || EF.Functions.Like(x.Description, "%" + q + "%") || EF.Functions.Like(x.Body, "%" + q + "%") );
+            }
+
             return View(query.OrderByDescending(x => x.Date));
         }
 
